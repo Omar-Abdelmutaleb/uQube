@@ -1,0 +1,161 @@
+.login {
+    width: 84vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    
+}
+
+.loginWrapper {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    padding: 100px 0 0 130px;
+}
+
+.loginLeft, .loginRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@font-face {
+    font-family:tranquillo ;
+    src: url(Tranquillo.otf);
+
+}
+.loginLogo {
+    font-size: 50px;
+    font-weight: 800;
+    color: #ee1717;
+    margin-bottom: 10px;
+    font-family: tranquillo;
+    position: relative;
+    top: 8px;
+}
+
+
+.loginDesc {
+    font-size: 24px;
+    width: 90%;
+    color: white;
+}
+
+.loginBox {
+    height: 300px;
+    padding: 20px;
+    background-color: rgb(97, 97, 97);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.loginInput {
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    padding-left: 20px;
+    background-color: rgb(243, 242, 242);
+}
+.loginInput:hover {
+    background-color: rgb(228, 227, 227);
+    
+}
+.loginInput::placeholder {
+    color: rgb(161, 160, 160);
+    
+}
+.loginInput:hover::placeholder {
+    color: rgb(109, 107, 107);    
+}
+
+.loginInput:focus::placeholder {
+    border: 1px solid black;
+    font-size: 10px;
+    border: none;
+    position: relative;
+    bottom: 20px;
+    right: 15px;
+    transition: 0.2s;
+}
+.loginInput:focus {
+    background-color: white;
+}
+
+.loginButton, .loginRegisterButton {
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ee1717;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.loginRegisterButton {
+    background-color: #ee1717;
+
+}
+
+.loginButton:hover, .loginRegisterButton:hover {
+    background-color: #d60909;
+}
+
+.loginForgot {
+    text-align: center;
+    position: relative;
+    margin: 0px auto;
+    width: 28%;
+    
+    color: #fcfcfc;
+    cursor: pointer;
+}
+
+.loginForgot:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 80px;
+    height: 60px;
+    display: flex;
+    margin-right: 20px;
+}
+
+
+.loginBas {
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.loginGoogleButton {
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+.loginGoogleButton:hover {
+    background-color: rgb(231, 229, 229);
+    
+}
+.googleText {
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+}
+.googleLogo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 100px;
+}
